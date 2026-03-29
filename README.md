@@ -13,7 +13,7 @@ This board is compatible with the following models:
 
 ## HOW DOES IT WORK?
 
-The **USB-C Power Delivery technology** (**USB-C PD**) allows for communication between the device and the power supply(charger), enabling the negotiation of the voltage to be supplied through the USB-C cable. In this case, the microchip included on this board is configured to request 9V or 12V**(1)**, signaling to the charger that it requires 9V or 12V**(1)** to run on. If the charger is compatible, it will supply the requested voltage. If it’s not compatible, nothing will happen, and the PlayStation won’t power on.
+The **USB-C Power Delivery technology** (**USB-C PD**) allows for communication between the device and the power supply(charger), enabling the negotiation of the voltage to be supplied through the USB-C cable. In this case, the microchip included on this board is configured to request 9V or 12V **(1)**, signaling to the charger that it requires 9V or 12V **(1)** to run on. If the charger is compatible, it will supply the requested voltage. If it’s not compatible, nothing will happen, and the PlayStation won’t power on.
 
 **(1)** The circuit has a selection solder jumper; if you solder it in one position, the circuit will require 9V, and if you solder it in the other position, it will require 12V from the power supply.
 
